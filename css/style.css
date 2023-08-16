@@ -84,7 +84,7 @@ body{
     transition: background-color 0.5s ease;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .heart {
         width: 100px;
         height: 160px;
@@ -94,4 +94,4 @@ body{
         width: 100px;
         height: 160px;
     }
-}
+} */
