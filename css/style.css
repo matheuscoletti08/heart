@@ -37,8 +37,8 @@ body{
 }
 
 .heart{
-    width: 150px;
-    height: 240px;
+    width: 100px;
+    height: 160px;
     transform-origin: right bottom;
 
     background-color: #ff3e3e;
@@ -54,15 +54,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .heart:after{
     content: '';
 
-    width: 150px;
-    height: 240px;
+    width: 100px;
+    height: 160px;
 
     position: absolute;
     transform-origin: left bottom;
@@ -74,9 +74,9 @@ body{
 }
 
 .heart:hover::after{
-    transform: rotate(-90deg) translateY(150px);
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
+    transform: rotate(-90deg) translateY(100px);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .heart:hover .header {
