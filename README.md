@@ -1,2 +1,3 @@
 # Treino de HTML, CSS E JS
-demostraçao de carinho para uma pessoa especial para mim <3<3<3
+qual o melhor treino que uma demostraçao de carinho para uma pessoa especial?
+fiz este site para a Nataly, uma pessoa muito especial para mim 🤍
