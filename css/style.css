@@ -37,8 +37,8 @@ body{
 }
 
 .heart{
-    width: 100px;
-    height: 160px;
+    width: 75px;
+    height: 120px;
     transform-origin: right bottom;
 
     background-color: #ff3e3e;
@@ -61,8 +61,8 @@ body{
 .heart:after{
     content: '';
 
-    width: 100px;
-    height: 160px;
+    width: 75px;
+    height: 120px;
 
     position: absolute;
     transform-origin: left bottom;
@@ -74,7 +74,7 @@ body{
 }
 
 .heart:hover::after{
-    transform: rotate(-90deg) translateY(100px);
+    transform: rotate(-90deg) translateY(75px);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
