@@ -36,13 +36,6 @@ body{
 
 }
 
-
-.heart-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .heart{
     width: 150px;
     height: 240px;
@@ -87,10 +80,10 @@ body{
 }
 
 .heart:hover .header {
-    background-color: rgba(255, 0, 0, 0.5); /* Altere a cor conforme desejado */
+    background-color: rgba(255, 0, 0, 0.5);
     transition: background-color 0.5s ease;
 }
-/* Adicione uma media query para estilos móveis */
+
 @media screen and (max-width: 768px) {
     .heart {
         width: 100px;
